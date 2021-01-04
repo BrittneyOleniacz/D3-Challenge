@@ -64,8 +64,8 @@ d3.csv("assets/data/data.csv").then(function(csv_data) {
     .attr("cx", d => xLinearScale(d.poverty))
     .attr("cy", d => yLinearScale(d.healthcare))
     .attr("r", "15")
-    .attr("fill", "pink")
-    .attr("opacity", ".5");
+    .attr("fill", "purple")
+    .attr("opacity", ".25");
 
     chartGroup.selectAll("null")
     .data(csv_data)
